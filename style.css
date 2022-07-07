@@ -64,6 +64,7 @@ button {
   text-align: center;
   height: 60px;
   width: 160px;
+  line-height: 60px;
   color: white;
   margin: 30px 20px;
   background-color: #fafafa;
@@ -130,6 +131,65 @@ button {
 }
 
 /* Scenario area CSS */
+
 .half-container{
-  display: flex;
+  display: flex ;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+.half-items{
+  width: 45%;
+  padding: 2%;
+  display: block;
+}
+
+
+/* Feedback Section  */
+
+section h3{
+  text-align: center;
+}
+
+section p{
+  text-align: center;
+}
+
+.news-letter{
+  text-align: center;
+  background-color: #FFF4D6;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 5px;
+  margin: 40px 0;
+}
+
+.news-letter input{
+  border: none;
+  border-radius: 5px;
+  height: 48px;
+  padding: 0px 5px;
+  
+}
+
+.news-letter button{
+  margin: 0;
+}
+
+footer{
+  text-align: center;
+  color: #EDF5F6;
+  background-color: #0B0D17;
+  height: 75px; 
+  padding-top: 40px;
+}
+
+footer h4{
+  color: #FF5959;
+  font-weight: 900;
+  font-size: 25px;
+  font-style: italic;
 }
